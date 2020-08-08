@@ -1,51 +1,57 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
+ container:{
+     flex: 1,
+     backgroundColor: '#f0f0f7',
+ },
 
-    container:{
-        flex:1,
-        backgroundColor: '#f0f0f7',
-        justifyContent: 'center',
-    },
+ teacherList:{
+     marginTop: -40,
+ },
 
-    content:{
-        flex: 1,
-        justifyContent: 'center',
-    },
+ searchForm:{
+     marginBottom:24,
+ },
 
-    title: {
-        fontFamily: 'Archivo_700Bold',
-        color: '#FFF',
-        fontSize: 30,
-        lineHeight: 36,
-        marginTop: 160,
-    },
+ label:{
+     color: '#d4c2ff',
+     fontFamily: 'Poppins_400Regular',
+ },
 
-    description:{
-        marginTop:22,
-        color: '#FFF',
-        fontSize: 16,
-        lineHeight: 24,
-        fontFamily: 'Poppins_400Regular',
-        maxWidth:20,
-    },
+ inputGroup:{
+     flexDirection: 'row',
+     justifyContent: 'space-between',
+ },
 
-    okButton: {
-        marginVertical: 40,
-        height: 58,
-        backgroundColor: '#04D361',
-        alignItems: 'center',
-        borderRadius: 8,
-        justifyContent: 'center',
-    },
+ inputBlock:{
+     width: '48%',
+ },
 
-    okButtonText: {
-        fontFamily: 'Archivo_700Bold',
-        color: '#FFF',
-        fontSize: 16,
-    },
+ input:{
+     height: 54,
+     backgroundColor: '#fff',
+     borderRadius: 8,
+     justifyContent: 'center',
+     paddingHorizontal: 16,
+     marginTop: 4,
+     marginBottom: 16,
+ },
 
-    
-});
+ submitButton:{
+    backgroundColor: '#04d361',
+    height: 56,
+    borderRadius: 8,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+ },
 
+ submitButtonText:{
+    color: '#fff',
+    fontFamily: 'Archivo_700Bold',
+    fontSize: 16,
+ },
+
+});   
 export default styles;
